@@ -10,7 +10,7 @@ class Board:boardProtocol
         fields = Array(repeating: Array(repeating: 0, count: 7), count: 7)
     }
     
-    // turning a position into array coordinates - A7 is 00 (top left corner)
+    // turning a position into array coordinates - A1 is 00 (top left corner)
     func convertStringPosition(position: String) -> [Int]
     {
             let targetField = Array(position)

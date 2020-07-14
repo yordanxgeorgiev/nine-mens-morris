@@ -14,10 +14,10 @@ protocol boardProtocol
     // counts how many mills the player has (used to see if new mills are formed)
     func millCheck(player: Int, fields: [[Int]]) -> Int
     
-    // converts string position to int coordinates (ex. A7 is 00)
+    // converts string position to int coordinates (ex. A1 is 00)
     func convertStringPosition(position: String) -> [Int]
     
-    // converts int coordinates to string position (ex. 00 is A7)
+    // converts int coordinates to string position (ex. [0,0] is A1)
     func convertIntPosition(position:[Int]) -> String
     
     // checks if all of player's pieces are in mills (used when removing a piece)
